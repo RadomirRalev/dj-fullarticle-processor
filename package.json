@@ -1,0 +1,32 @@
+{
+  "name": "dj-fullarticle-processor",
+  "version": "1.0.0",
+  "description": "This package returns articles taken from fullview as an array of objects.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadomirRalev/dj-fullarticle-processor.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "scrapper",
+    "media",
+    "report",
+    "articles"
+  ],
+  "author": "Radomir Ralev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RadomirRalev/dj-fullarticle-processor/issues"
+  },
+  "homepage": "https://github.com/RadomirRalev/dj-fullarticle-processor#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
